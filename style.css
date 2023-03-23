@@ -186,6 +186,9 @@ nav .fa-solid{
         font-size: 10px;
         margin-top: 25px;
     }
+    .social-links{
+        padding-bottom: 20px;
+    }
     .social-links a{
         padding: 0 2px;
         font-size: 20px;
@@ -444,6 +447,8 @@ nav .fa-solid{
 /* ================/Resume============= */
 #resume{
     background-color: #f5f6f6;
+    padding: 15px 0;
+    margin: 10px 0;
 }
 .summary{
     width: 60%;
@@ -641,13 +646,16 @@ nav .fa-solid{
 .data p a:hover{
     color: #6930c3;
 }
+.socialmedia-info{
+    padding: 20px 0;
+}
 .socialmedia-info h4{
     padding: 10px 0;
 }
 .socialmedia-info a{
     color:#373b61;
     font-size: 30px;
-    padding-right: 15px;
+    padding:0 8px;
     align-items: center;
     margin: auto;
     transition: .5s;
@@ -661,6 +669,6 @@ nav .fa-solid{
 @media(max-width:768px){
     .contact-container{
         width: 90%;
-        margin: 10px auto;
+        margin: 20px auto;
     }
 }
