@@ -145,7 +145,7 @@ a{
     cursor: pointer;
 }
 .social-links a{
-    padding: 0 5px;
+    padding: 0 8px;
     font-size: 30px;
     color:#f7f7f7;
 }
@@ -203,7 +203,7 @@ nav .fa-solid{
         width: 200px;
         height: 100vh;
         top: 0;
-        right: 0;
+        right: -200px;
         text-align: center;
         z-index: 2;
         transition: 1s;
